@@ -3689,13 +3689,13 @@ if IKAI then
 end
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Switch Notification", 
-	Text = "ฟังชั่นที่มีไอคอนนี้สามารถเปิด\nพร้อมฟามเวลได้",
+	Title = "Unique Hub Notification", 
+	Text = "Unique Hub On Top Hubคนไทยดีกว่าSwitch พม่าเเน่นอน\n",
 	Icon = "http://www.roblox.com/asset/?id=9610159123",
-	Duration = 8
+	Duration = 8000
 })
 
-local win = library:Window("Unique On top",[[Hub]],[[Version : Leak ]],"9606070311",Enum.KeyCode.RightControl)
+local win = library:Window("Switch",[[Hub]],[[Version : Leak  ]],"9606070311",Enum.KeyCode.RightControl)
 local General_Tab = win:Tab("General",[[7040391851]])
 local Quest_Tab = win:Tab("    Quest & Item",[[9606626859]])
 local PvP_Tab = win:Tab("PvP",[[9606626034]])
